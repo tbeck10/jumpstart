@@ -1,0 +1,23 @@
+/* Universal Styles */
+
+html {
+  font-size: 14px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.4;
+}
+
+/* Navigation */
+
+.navbar {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover {
+  background-color: inherit;
+  color: #399bd1;
+}
