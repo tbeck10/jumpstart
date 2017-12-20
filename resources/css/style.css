@@ -9,6 +9,12 @@ body {
   line-height: 1.4;
 }
 
+.image-container img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
 /* Navigation */
 
 .navbar {
@@ -47,4 +53,30 @@ body {
 .jumbotron p {
   max-width: 51.3rem;
   margin: auto;
+}
+
+/* Featured Project */
+
+.featured h2 {
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
+.featured .image-container {
+  height: 19rem;
+  margin-top: 20px;
+}
+
+.featured h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.categories h3 {
+  color: #399bd1;
+}
+
+.categories ul {
+  line-height: 1.4;
+  color: rgba(0, 0, 0, 0.7);
 }
